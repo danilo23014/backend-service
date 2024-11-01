@@ -13,4 +13,6 @@ export class Product {
 
     @Column("decimal")
     pricel!: number;
+    price: any;
+    description: any;
 }
