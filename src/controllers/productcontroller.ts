@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import { AppDataSource } from "../data-source";
 import { Product } from "../entities/Product";
-import { json } from "stream/consumers";
 
 // traemos la tabla o entidad producto de la base de datos
 const ProductRepository = AppDataSource.getRepository(Product);
