@@ -22,7 +22,7 @@ const swaggerOptions: Options = {
 
 const swaggerSpec = swaggerJSDoc(swaggerOptions);
 
-export default swaggerSpec
+export default swaggerSpec;
 
 
 
